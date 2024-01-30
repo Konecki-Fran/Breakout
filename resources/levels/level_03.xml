@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<level>
+	<rowCount>3</rowCount>
+	<columnCount>20</columnCount>
+	<rowSpacing>3</rowSpacing>
+	<columnSpacing>1</columnSpacing>
+	<backgroundTexture>textures/levels/level_01.png</backgroundTexture>
+	<bricks>I H H H H H H H H H H H H H H H H H H I M M I I M M _ _ M H H M _ _ M M I I M M H H I I S S S S S S S S S S S S I I H H</bricks>
+	<brickTypes>
+		<brickType>
+			<id>S</id>
+			<texture>resources\textures\bricks\soft.png</texture>
+			<hitPoints>1</hitPoints>
+			<hitSound>resources\sounds\hit_01.wav</hitSound>
+			<breakSound>resources\sounds\break_01.wav</breakSound>
+			<breakScore>50</breakScore>
+		</brickType>
+		<brickType>
+			<id>M</id>
+			<texture>resources\textures\bricks\medium.png</texture>
+			<hitPoints>2</hitPoints>
+			<hitSound>resources\sounds\hit_02.wav</hitSound>
+			<breakSound>resources\sounds\break_02.wav</breakSound>
+			<breakScore>100</breakScore>
+		</brickType>
+		<brickType>
+			<id>H</id>
+			<texture>resources\textures\bricks\hard.png</texture>
+			<hitPoints>3</hitPoints>
+			<hitSound>resources\sounds\hit_03.wav</hitSound>
+			<breakSound>resources\sounds\break_03.wav</breakSound>
+			<breakScore>150</breakScore>
+		</brickType>
+		<brickType>
+			<id>I</id>
+			<texture>resources\textures\bricks\infinite.png</texture>
+			<hitPoints>-1</hitPoints>
+			<hitSound>resources\sounds\hit_04.wav</hitSound>
+			<breakSound></breakSound>
+			<breakScore></breakScore>
+		</brickType>
+	</brickTypes>
+</level>
